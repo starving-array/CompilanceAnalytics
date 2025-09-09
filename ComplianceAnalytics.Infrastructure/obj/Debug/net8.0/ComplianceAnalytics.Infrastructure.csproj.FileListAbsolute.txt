@@ -1,0 +1,15 @@
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/bin/Debug/net8.0/ComplianceAnalytics.Infrastructure.deps.json
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/bin/Debug/net8.0/ComplianceAnalytics.Infrastructure.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/bin/Debug/net8.0/ComplianceAnalytics.Infrastructure.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/bin/Debug/net8.0/ComplianceAnalytics.Domain.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/bin/Debug/net8.0/ComplianceAnalytics.Domain.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ComplianceAnalytics.Infrastructure.csproj.AssemblyReference.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ComplianceAnalytics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ComplianceAnalytics.Infrastructure.AssemblyInfoInputs.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ComplianceAnalytics.Infrastructure.AssemblyInfo.cs
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ComplianceAnalytics.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/Complian.0BAD78D2.Up2Date
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ComplianceAnalytics.Infrastructure.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/refint/ComplianceAnalytics.Infrastructure.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ComplianceAnalytics.Infrastructure.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Infrastructure/obj/Debug/net8.0/ref/ComplianceAnalytics.Infrastructure.dll

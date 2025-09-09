@@ -1,0 +1,12 @@
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/bin/Debug/net8.0/ComplianceAnalytics.Domain.deps.json
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/bin/Debug/net8.0/ComplianceAnalytics.Domain.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/bin/Debug/net8.0/ComplianceAnalytics.Domain.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ComplianceAnalytics.Domain.csproj.AssemblyReference.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ComplianceAnalytics.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ComplianceAnalytics.Domain.AssemblyInfoInputs.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ComplianceAnalytics.Domain.AssemblyInfo.cs
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ComplianceAnalytics.Domain.csproj.CoreCompileInputs.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ComplianceAnalytics.Domain.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/refint/ComplianceAnalytics.Domain.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ComplianceAnalytics.Domain.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Domain/obj/Debug/net8.0/ref/ComplianceAnalytics.Domain.dll
