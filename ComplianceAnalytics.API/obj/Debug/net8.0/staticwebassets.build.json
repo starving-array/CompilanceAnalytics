@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "o62XgFVLA9n8ANRDBvLV07/cSNw4NWumAgBc3vBobHg=",
+  "Source": "ComplianceAnalytics.API",
+  "BasePath": "_content/ComplianceAnalytics.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

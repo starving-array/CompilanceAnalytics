@@ -41,9 +41,9 @@ namespace ComplianceAnalytics.Infrastructure.Service
                 Role = role,
                 Region = region
             };
+    
             await _userRepository.AddAsync(user);
-            // await _userRepository.SaveChangesAsync();
-
+            await _userRepository.SaveChangesAsync();
             return user;
         }
 

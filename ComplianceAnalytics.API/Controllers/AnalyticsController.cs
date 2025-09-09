@@ -17,7 +17,7 @@ public class AnalyticsController : ControllerBase
     }
 
     [HttpGet("compliance")]
-    public async Task<IActionResult> GetCompliance([FromQuery] AnalyticsFilter filter)
+    public async Task<IActionResult> GetCompliance([FromQuery] AnalyticsFilterUser filter)
     {
         // For now, we can hardcode executedBy as "APIUser" or extract from JWT
         string executedBy = User?.Identity?.Name ?? "APIUser";
@@ -25,11 +25,11 @@ public class AnalyticsController : ControllerBase
         var result = await _service.GetComplianceAnalyticsAsync(filter, executedBy);
         return Ok(result);
     }
-    
+
     // Managers can get analytics for their own region
     [HttpGet("compliance/region")]
-    [Authorize(Policy = "ManagerOnly")]
-    public async Task<IActionResult> GetRegionCompliance([FromQuery] AnalyticsFilter filter)
+    [Authorize(Roles = "Manager,Admin")]
+    public async Task<IActionResult> GetRegionCompliance([FromQuery] AnalyticsFilterManager filter)
     {
         // Ensure region is set from user's claims
         filter.Region = User.FindFirst("Region")?.Value;

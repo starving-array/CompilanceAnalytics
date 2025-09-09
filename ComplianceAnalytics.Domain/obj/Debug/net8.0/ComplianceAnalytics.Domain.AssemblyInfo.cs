@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComplianceAnalytics.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e093c8ec18091e96944a943ddb429e3e04f402eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComplianceAnalytics.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComplianceAnalytics.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

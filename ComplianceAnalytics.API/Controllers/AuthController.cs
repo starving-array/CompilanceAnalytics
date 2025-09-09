@@ -31,5 +31,4 @@ namespace ComplianceAnalytics.API.Controllers
             return Ok(new { Token = token });
         }
     }
-
 }

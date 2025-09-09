@@ -21,7 +21,7 @@ public class AnalyticsService
 
     public async Task<AnalyticsResult> GetComplianceAnalyticsAsync(AnalyticsFilter filter, String executedBy)
     {
-        string cacheKey = $"compliance_{filter.StartDate}_{filter.EndDate}_{filter.LocationID}_{filter.Region}_{filter.WorkflowType}_{filter.PageNumber}_{filter.PageSize}";
+        string cacheKey = $"compliance_{filter.WorkflowType}_{filter.PageNumber}_{filter.PageSize}";
 
         // 1️⃣ Try cache first
         var cachedData = await _cache.GetStringAsync(cacheKey);
@@ -36,19 +36,23 @@ public class AnalyticsService
         // 2️⃣ Query DB if not cached
         using var connection = new SqlConnection(_connectionString);
         await connection.OpenAsync();
+        var region = (string)null;
+        if (filter is AnalyticsFilterManager analyticsFilterManager)
+        {
+            region = analyticsFilterManager.Region;
+
+        }
 
         using var multi = await connection.QueryMultipleAsync(
             "usp_GetComplianceAnalytics",
             new
             {
-                filter.StartDate,
-                filter.EndDate,
-                // LocationID = filter.LocationID,
-                // Region = filter.Region,
-                // WorkflowType = filter.WorkflowType,
-                // PageNumber = filter.PageNumber,
-                // PageSize = filter.PageSize,
-                // ExecutedBy = filter.ExecutedBy ?? "system"
+
+                // You can now access properties specific to AnalyticsFilterUser
+                Region = region,
+                WorkflowType = filter.WorkflowType,
+                PageNumber = filter.PageNumber,
+                PageSize = filter.PageSize,
             },
             commandType: CommandType.StoredProcedure
         );

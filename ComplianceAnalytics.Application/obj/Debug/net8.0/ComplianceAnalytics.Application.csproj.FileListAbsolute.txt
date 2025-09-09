@@ -1,0 +1,16 @@
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/bin/Debug/net8.0/ComplianceAnalytics.Application.deps.json
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/bin/Debug/net8.0/ComplianceAnalytics.Application.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/bin/Debug/net8.0/ComplianceAnalytics.Application.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/bin/Debug/net8.0/ComplianceAnalytics.Domain.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/bin/Debug/net8.0/ComplianceAnalytics.Domain.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.csproj.AssemblyReference.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.AssemblyInfoInputs.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.AssemblyInfo.cs
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.csproj.CoreCompileInputs.cache
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.sourcelink.json
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/Complian.149574AB.Up2Date
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/refint/ComplianceAnalytics.Application.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ComplianceAnalytics.Application.pdb
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.Application/obj/Debug/net8.0/ref/ComplianceAnalytics.Application.dll
