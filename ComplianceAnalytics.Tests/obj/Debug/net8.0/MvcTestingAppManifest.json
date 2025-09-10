@@ -1,0 +1,6 @@
+{
+  "ComplianceAnalytics.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/admin\/Documents\/work\/dotnet\/ComplianceAnalytics\/ComplianceAnalytics.API",
+  "ComplianceAnalytics.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/admin\/Documents\/work\/dotnet\/ComplianceAnalytics\/ComplianceAnalytics.Application",
+  "ComplianceAnalytics.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/admin\/Documents\/work\/dotnet\/ComplianceAnalytics\/ComplianceAnalytics.Domain",
+  "ComplianceAnalytics.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/admin\/Documents\/work\/dotnet\/ComplianceAnalytics\/ComplianceAnalytics.Infrastructure"
+}

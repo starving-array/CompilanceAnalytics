@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComplianceAnalytics.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1d291413807216154cc2daca160e9e94e0ab59a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc7fc0b3351f0f5a95c582c37778b858cba24231")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComplianceAnalytics.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComplianceAnalytics.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

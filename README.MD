@@ -4,6 +4,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Desktop-2496ED?logo=docker&logoColor=white)  
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-CC2927?logo=microsoftsqlserver&logoColor=white)  
 ![Redis](https://img.shields.io/badge/Redis-7-DC382D?logo=redis&logoColor=white)  
+![Serilog](https://img.shields.io/badge/Logging-Serilog-0d2c40?logo=.net&logoColor=white)  
 
 A full-stack .NET 8 project with **SQL Server 2022**, **Redis cache**, and **JWT authentication**.  
 Easily spin up the environment with Docker and start running compliance analytics queries.
