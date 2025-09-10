@@ -8,9 +8,23 @@ using ComplianceAnalytics.Infrastructure.Repositories;
 using ComplianceAnalytics.Application.Services;
 using ComplianceAnalytics.Infrastructure.Service;
 using Microsoft.Extensions.Caching.Distributed;
+using Serilog;
+using ComplianceAnalytics.API.Middleware;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+
+// --- Configure Serilog ---
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration) // read from appsettings.json
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 // ---------- Controllers + Swagger ----------
 builder.Services.AddControllers();
@@ -71,6 +85,8 @@ builder.Services.AddAuthorization(options =>
 });
 
 var app = builder.Build();
+
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 // ---------- Middleware ----------
 if (app.Environment.IsDevelopment())

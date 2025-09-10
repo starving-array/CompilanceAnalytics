@@ -11,7 +11,8 @@ using Microsoft.IdentityModel.Tokens;
 using BCrypt.Net;
 using ComplianceAnalytics.Infrastructure.Repositories;
 using ComplianceAnalytics.Infrastructure.Service;
-using ComplianceAnalytics.Domain.Repositories; // from BCrypt.Net-Next NuGet package
+using ComplianceAnalytics.Domain.Repositories;
+using Serilog; // from BCrypt.Net-Next NuGet package
 
 namespace ComplianceAnalytics.Infrastructure.Service
 {
@@ -54,13 +55,20 @@ namespace ComplianceAnalytics.Infrastructure.Service
         {
             var user = await _userRepository.GetByUserNameAsync(username);
             if (user == null)
+            {
+                Log.Warning("Failed login attempt: user {Username} not found", username);
                 throw new UnauthorizedAccessException("Invalid credentials");
-
+            }
+            
             // check password
             bool validPassword = BCrypt.Net.BCrypt.Verify(password, user.PasswordHash);
             if (!validPassword)
+            {
+                Log.Warning("Failed login attempt: invalid password for user {Username}", username);
                 throw new UnauthorizedAccessException("Invalid credentials");
+            }
 
+            Log.Information("User {Username} logged in successfully with role {Role}", username, user.Role);
             return GenerateJwtToken(user);
         }
 

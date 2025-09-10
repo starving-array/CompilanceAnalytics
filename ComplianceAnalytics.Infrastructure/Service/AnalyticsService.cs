@@ -7,6 +7,7 @@ using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Caching.Distributed;
 namespace ComplianceAnalytics.Infrastructure.Service;
+using Serilog;
 
 public class AnalyticsService
 {
@@ -27,7 +28,7 @@ public class AnalyticsService
         var cachedData = await _cache.GetStringAsync(cacheKey);
         if (!string.IsNullOrEmpty(cachedData))
         {
-            Console.WriteLine("Cache hit "+ cacheKey + " "+ JsonSerializer.Deserialize<AnalyticsResult>(cachedData));
+            Log.Information("Cache hit for {CacheKey}", cacheKey);
             return JsonSerializer.Deserialize<AnalyticsResult>(cachedData);
         }
 
@@ -57,6 +58,7 @@ public class AnalyticsService
             commandType: CommandType.StoredProcedure
         );
 
+        var start = DateTime.UtcNow;
         var result = new AnalyticsResult
         {
             Summary = await multi.ReadFirstOrDefaultAsync<SummaryKpi>(),
@@ -64,7 +66,11 @@ public class AnalyticsService
             ComplianceTrend = (await multi.ReadAsync<TrendData>()).AsList(),
             TopUsers = (await multi.ReadAsync<UserCompliance>()).AsList()
         };
+        var elapsed = DateTime.UtcNow - start;
 
+
+        Log.Information("Executed usp_GetComplianceAnalytics (Region={Region}, WorkflowType={WorkflowType}) in {Elapsed}ms",
+                region, filter.WorkflowType, elapsed.TotalMilliseconds);
         // 3️⃣ Store in Redis
         await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(result),
             new DistributedCacheEntryOptions { AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) });

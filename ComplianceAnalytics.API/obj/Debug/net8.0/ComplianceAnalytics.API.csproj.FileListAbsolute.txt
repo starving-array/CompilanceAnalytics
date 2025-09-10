@@ -105,3 +105,16 @@
 /Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/obj/Debug/net8.0/ComplianceAnalytics.API.pdb
 /Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/obj/Debug/net8.0/ComplianceAnalytics.API.genruntimeconfig.cache
 /Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/obj/Debug/net8.0/ref/ComplianceAnalytics.API.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/Users/admin/Documents/work/dotnet/ComplianceAnalytics/ComplianceAnalytics.API/bin/Debug/net8.0/Serilog.Sinks.Seq.dll
